@@ -1,0 +1,7 @@
+/*
+Base file is intentionally removed due to compatibility with our production
+builds. Generally, that should be fine for this project. 
+@tailwind base; 
+*/
+@tailwind components;
+@tailwind utilities;

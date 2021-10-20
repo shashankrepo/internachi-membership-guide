@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>InterNACHI® Membership Guide</title>
+	
+	<!-- Our current production CSS has all the necessary web fonts/etc -->
+	<link rel="stylesheet" href="https://www.nachi.org/css/app-4097d91924.css?v=4" />
+	
+	<!-- But since we use purge CSS in production, we'll also include a local version of tailwind. -->
+	<link rel="stylesheet" href="guide.css" />
+</head>
+<body id="guide" class="antialiased tailwind">
+
+<!-- 
+This is just a rough mock-up of the NACHI.ORG navigation bar so that there's something to work around.
+When this design is finished, we'll bring it into our production codebase and replace this with the
+actual fully-functional navigation.
+-->
+<nav class="absolute top-0 right-0 left-0 tailwind" role="navigation">
+	<div class="relative border-b border-blue-900 shadow bg-blue">
+		<div class="px-8">
+			<div class="flex -mx-2 w-full">
+				<a class="block mx-2 no-underline" href="https://www.nachi.org" style="height: 70px;">
+					<img class="lg:hidden"
+					     style="width: 80px; height: 70px;"
+					     alt="InterNACHI Logo"
+					     title="InterNACHI"
+					     width="80"
+					     height="70"
+					     src="https://www.nachi.org/img/header-mobile@2x-f4ef3b62b8.png?v=4">
+					<img class="hidden max-w-full h-auto lg:inline"
+					     alt="InterNACHI Logo"
+					     title="InterNACHI"
+					     width="305"
+					     height="70"
+					     src="https://www.nachi.org/img/header-full-lg@2x-07de4780ef.png?v=4">
+				</a>
+			</div>
+		</div>
+	</div>
+</nav>
+
+<!-- -------------------------------------------------------------------------------- 
+Introduction and table of contents
+--------------------------------------------------------------------------------- -->
+
+<div class="min-h-screen bg-blue-600 md:flex">
+	<div
+		class="flex-1 self-start pt-14 bg-opacity-20 bg-center bg-cover md:h-screen"
+		style="background-image: url(img/map.jpg)"
+	>
+		<div class="flex flex-col justify-between p-8 h-full bg-gradient-to-b from-blue-800">
+			<div></div>
+			
+			<div class="py-4 px-8 font-serif text-4xl font-bold leading-snug bg-white shadow transform rotate-6">
+				Welcome to InterNACHI, where our focus is <span class="p-1 bg-yellow-200">helping home inspectors succeed</span>.
+			</div>
+			
+			<div class="flex justify-center items-center text-white">
+				<span class="text-2xl font-semibold text-center">
+					Find out how
+				</span>
+				<svg class="ml-2 w-10 h-10 delay-1000 animate-bounce" aria-hidden="true"
+				     focusable="false"
+				     data-prefix="fas"
+				     data-icon="arrow-down"
+				     class="svg-inline--fa fa-arrow-down fa-w-14"
+				     role="img"
+				     xmlns="http://www.w3.org/2000/svg"
+				     viewBox="0 0 448 512">
+					<path fill="currentColor"
+					      d="M413.1 222.5l22.2 22.2c9.4 9.4 9.4 24.6 0 33.9L241 473c-9.4 9.4-24.6 9.4-33.9 0L12.7 278.6c-9.4-9.4-9.4-24.6 0-33.9l22.2-22.2c9.5-9.5 25-9.3 34.3.4L184 343.4V56c0-13.3 10.7-24 24-24h32c13.3 0 24 10.7 24 24v287.4l114.8-120.5c9.3-9.8 24.8-10 34.3-.4z"></path>
+				</svg>
+			</div>
+		</div>
+	</div>
+	<div class="flex flex-col justify-center self-stretch pt-14 bg-white md:max-w-1/2">
+		<div class="p-4">
+			<div class="pill">
+				Learn about
+			</div>
+		</div>
+		<div class="flex items-baseline p-4">
+			<div class="flex justify-center items-center mr-4 w-14 h-14 font-serif text-2xl font-bold text-white bg-blue-600 rounded-full">
+				1
+			</div>
+			<div class="flex-1">
+				<h2 class="mt-0 mb-1 text-3xl font-bold text-gray-700">
+					Membership
+				</h2>
+				<p class="mt-0 text-sm leading-normal text-gray-800">
+					InterNACHI® offers everything you need to run a succesful home inspection company, whether you are a start-up or a succesful multi-inspector firm.
+				</p>
+			</div>
+		</div>
+		<div class="flex items-baseline p-4">
+			<div class="flex justify-center items-center mr-4 w-14 h-14 font-serif text-2xl font-bold text-white bg-blue-600 rounded-full">
+				2
+			</div>
+			<div class="flex-1">
+				<h2 class="mt-0 mb-1 text-3xl font-bold text-gray-700">
+					Education
+				</h2>
+				<p class="mt-0 text-sm leading-normal text-gray-800">
+					InterNACHI® School is the only home inspector school accredited by the Accrediting Council
+					for Continuing Education & Training (ACCET),
+					a national accrediting agency of the U.S. Department of Education. As a member, you have free and unlimited access to all of InterNACHI® School’s online courses, including its
+					Certified Professional Inspector (CPI)® certification program.
+				</p>
+			</div>
+		</div>
+		<div class="flex items-baseline p-4">
+			<div class="flex justify-center items-center mr-4 w-14 h-14 font-serif text-2xl font-bold text-white bg-blue-600 rounded-full">
+				3
+			</div>
+			<div class="flex-1">
+				<h2 class="mt-0 mb-1 text-3xl font-bold text-gray-700">
+					House of Horrors
+				</h2>
+				<p class="mt-0 text-sm leading-normal text-gray-800">
+					The House of Horrors® is a full-size house with thousands of defects purposely built in. Get hands-on at this first-of-its-kind training facility at locations around the U.S.
+				</p>
+			</div>
+		</div>
+		<div class="flex items-baseline p-4">
+			<div class="flex justify-center items-center mr-4 w-14 h-14 font-serif text-2xl font-bold text-white bg-blue-600 rounded-full">
+				4
+			</div>
+			<div class="flex-1">
+				<h2 class="mt-0 mb-1 text-3xl font-bold text-gray-700">
+					Community
+				</h2>
+				<p class="mt-0 text-sm leading-normal text-gray-800">
+					Join the largest community, online and offline, in the home inspection industry. InterNACHI® hosts online forums, annual conventions, nationwide chapter meetings, and live online
+					events.
+				</p>
+			</div>
+		</div>
+		<div class="flex items-baseline p-4">
+			<div class="flex justify-center items-center mr-4 w-14 h-14 font-serif text-2xl font-bold text-white bg-blue-600 rounded-full">
+				5
+			</div>
+			<div class="flex-1">
+				<h2 class="mt-0 mb-1 text-3xl font-bold text-gray-700">
+					Marketing
+				</h2>
+				<p class="mt-0 text-sm leading-normal text-gray-800">
+					InterNACHI® offers free professional design services for its members’ inspection companies. You pay only for the cost of printing and shipping.
+				</p>
+			</div>
+		</div>
+		<div class="flex items-baseline p-4">
+			<div class="flex justify-center items-center mr-4 w-14 h-14 font-serif text-2xl font-bold text-white bg-blue-600 rounded-full">
+				6
+			</div>
+			<div class="flex-1">
+				<h2 class="mt-0 mb-1 text-3xl font-bold text-gray-700">
+					Specialty Programs
+				</h2>
+				<p class="mt-0 text-sm leading-normal text-gray-800">
+					Take advantage of InterNACHI’s specialty programs to add value to your inspection services.
+				</p>
+			</div>
+		</div>
+		<div class="flex items-baseline p-4">
+			<div class="flex justify-center items-center mr-4 w-14 h-14 font-serif text-2xl font-bold text-white bg-blue-600 rounded-full">
+				7
+			</div>
+			<div class="flex-1">
+				<h2 class="mt-0 mb-1 text-3xl font-bold text-gray-700">
+					Media
+				</h2>
+				<p class="mt-0 text-sm leading-normal text-gray-800">
+					Join us for live webinars, training videos, and podcasts with top industry professionals.
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- -------------------------------------------------------------------------------- 
+Membership
+--------------------------------------------------------------------------------- -->
+
+<div class="flex justify-center items-center min-h-screen bg-gray-100">
+	Membership section
+</div>
+
+<!-- -------------------------------------------------------------------------------- 
+Education
+--------------------------------------------------------------------------------- -->
+
+<div class="flex justify-center items-center min-h-screen bg-blue-200">
+	Education section
+</div>
+
+<!-- -------------------------------------------------------------------------------- 
+House of Horrors
+--------------------------------------------------------------------------------- -->
+
+<div class="flex justify-center items-center min-h-screen bg-white">
+	House of Horrors section
+</div>
+
+<!-- -------------------------------------------------------------------------------- 
+Community
+--------------------------------------------------------------------------------- -->
+
+<div class="flex justify-center items-center min-h-screen text-white bg-blue-800">
+	Community section
+</div>
+
+<!-- -------------------------------------------------------------------------------- 
+Marketing
+--------------------------------------------------------------------------------- -->
+
+<div class="flex justify-center items-center min-h-screen bg-gray-50">
+	Marketing section
+</div>
+
+<!-- -------------------------------------------------------------------------------- 
+Specialty Programs
+--------------------------------------------------------------------------------- -->
+
+<div class="flex justify-center items-center min-h-screen text-white bg-blue-400">
+	Specialty programs section
+</div>
+
+<!-- -------------------------------------------------------------------------------- 
+Media
+--------------------------------------------------------------------------------- -->
+
+<div class="flex justify-center items-center min-h-screen bg-white">
+	Media section
+</div>
+
+<div class="p-8 text-sm text-center text-gray-400 bg-gray-50 border-t shadow-inner">
+	Copyright 2021 InterNACHI® — All rights reserved.
+</div>
+
+</body>
+</html>
